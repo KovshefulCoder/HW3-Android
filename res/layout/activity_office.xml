@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.roombd.OfficeActivity">
+
+    <EditText
+        android:id="@+id/officeInputNumber"
+        android:layout_width="388dp"
+        android:layout_height="wrap_content"
+        android:hint="Номер офиса"/>
+
+    <EditText
+        android:id="@+id/officeInputDepartment"
+        android:layout_width="388dp"
+        android:layout_height="wrap_content"
+        android:hint="Отдел"/>
+
+    <Button
+        android:id="@+id/officeShowAll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Показать все"/>
+
+    <Button
+        android:id="@+id/officeAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Добавить"/>
+
+    <Button
+        android:id="@+id/officeUpdateByNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Изменить по номеру"/>
+
+    <Button
+        android:id="@+id/officeFindByNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Искать по номеру"/>
+
+    <Button
+        android:id="@+id/officeFindByDepartment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Искать по отделу"/>
+
+    <Button
+        android:id="@+id/officeDeleteByNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Удалить по номеру"/>
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.roombd.EmployeeActivity">
+
+    <EditText
+        android:id="@+id/employeeInputName"
+        android:layout_width="388dp"
+        android:layout_height="wrap_content"
+        android:hint="Имя"/>
+
+    <EditText
+        android:id="@+id/employeeInputDepartment"
+        android:layout_width="388dp"
+        android:layout_height="wrap_content"
+        android:hint="Отдел"/>
+
+    <EditText
+        android:id="@+id/employeeInputPosition"
+        android:layout_width="388dp"
+        android:layout_height="wrap_content"
+        android:hint="Должность"/>
+
+    <Button
+        android:id="@+id/employeeShowAll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Показать все"/>
+
+    <Button
+        android:id="@+id/employeeAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Добавить"/>
+
+    <Button
+        android:id="@+id/employeeFindByName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Искать по имени"/>
+
+    <Button
+        android:id="@+id/employeeFindByDepartment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Искать по отделу"/>
+
+    <Button
+        android:id="@+id/employeeFindByPosition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Искать по должности"/>
+
+    <Button
+        android:id="@+id/employeeDeleteByName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Удалить по имени"/>
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
